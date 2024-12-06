@@ -1,0 +1,86 @@
+# Compiled binary files
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.dylib
+
+# Object files
+*.o
+*.obj
+
+# CMake build artifacts
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+build/
+*.ninja
+rules.ninja
+
+# IDE and editor files
+# CLion and other JetBrains IDEs
+.idea/
+*.iml
+
+# Visual Studio
+*.vcxproj*
+*.vcproj*
+*.sln
+*.suo
+*.user
+*.filters
+*.db
+.vscode/
+
+# Eclipse
+.cproject
+.project
+.settings/
+
+# Code::Blocks
+*.cbp
+*.depend
+*.layout
+
+# macOS
+.DS_Store
+
+# Linux
+*.swp
+*~
+
+# Logs and debugging
+*.log
+*.trace
+*.dmp
+
+# Dependency directories
+/deps/
+external/
+
+# Generated files
+*.gch
+*.pch
+*.moc
+ui_*.h
+qrc_*.cpp
+*.cmake
+
+# Image and other binary assets
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.tga
+*.obj
+*.fbx
+
+# Temporary files
+*.tmp
+*.temp
+*.pid
+
+# Custom
+# Add any project-specific directories/files here
