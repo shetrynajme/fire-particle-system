@@ -1,4 +1,6 @@
 #include "particle.hpp"
+#include "util.hpp"
+
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/noise.hpp>
 
@@ -36,19 +38,10 @@ bool Particle::update(float deltaTime, const glm::vec3 &cameraPosition) {
   position.x += swayOffset * deltaTime; // Sway on X-axis
   position.z += cos(elapsedTime * swingFrequency) * swingAmplitude * deltaTime;
 
-  float noiseX =
-      glm::perlin(position * turbulenceScale + glm::vec3(elapsedTime)) *
-      turbulenceStrength;
-  float noiseY = glm::perlin(position * turbulenceScale +
-                             glm::vec3(elapsedTime + 100.0f)) *
-                 turbulenceStrength;
-  float noiseZ = glm::perlin(position * turbulenceScale +
-                             glm::vec3(elapsedTime + 200.0f)) *
-                 turbulenceStrength;
+  glm::vec3 curl = util::computeCurlNoise(position * turbulenceScale +
+                                          glm::vec3(elapsedTime));
 
-  glm::vec3 turbulenceForce(noiseX, noiseY, noiseZ);
-
-  velocity += turbulenceForce * deltaTime;
+  velocity += curl * turbulenceStrength * deltaTime;
 
   position += velocity * deltaTime;
   elapsedTime += deltaTime;

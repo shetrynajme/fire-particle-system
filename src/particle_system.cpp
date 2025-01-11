@@ -50,10 +50,17 @@ void ParticleSystem::update(float deltaTime, const glm::vec3 &cameraPosition) {
     }
   }
 
-  std::sort(particles.begin(), particles.end(),
+  auto firstInactive =
+      std::partition(particles.begin(), particles.end(),
+                     [](const Particle &p) { return p.isActive(); });
+
+  std::sort(particles.begin(), firstInactive,
             [&cameraPosition](const Particle &a, const Particle &b) {
-              return glm::distance(cameraPosition, a.getPosition()) >
-                     glm::distance(cameraPosition, b.getPosition());
+              float distA = glm::dot(cameraPosition - a.getPosition(),
+                                     cameraPosition - a.getPosition());
+              float distB = glm::dot(cameraPosition - b.getPosition(),
+                                     cameraPosition - b.getPosition());
+              return distA > distB;
             });
 
   emitParticles(glm::vec3(0.0f, 0.1f, 0.0f), deltaTime);

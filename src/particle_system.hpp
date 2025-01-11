@@ -7,6 +7,16 @@
 #include <random>
 #include <vector>
 
+struct ParticleInstace {
+  glm::vec3 position;
+  float rotation;
+  float scale;
+  glm::vec2 texOffset1;
+  glm::vec2 texOffset2;
+  float blendFactor;
+  float lifeFactor;
+};
+
 class Shader;
 
 class ParticleSystem {

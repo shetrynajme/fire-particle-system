@@ -43,22 +43,22 @@ void ImGuiModule::render() {
   ImGui::Text("Particle System Controls");
 
   static float pps = particleSystem.getPPS();
-  if (ImGui::SliderFloat("Particles Per Second", &pps, 0.0f, 5000.0f)) {
+  if (ImGui::SliderFloat("Particles Per Second", &pps, 0.0f, 1000.0f)) {
     particleSystem.setPPS(pps);
   }
 
   static float avgSpeed = particleSystem.getAverageSpeed();
-  if (ImGui::SliderFloat("Average Speed", &avgSpeed, 0.0f, 20.0f)) {
+  if (ImGui::SliderFloat("Average Speed", &avgSpeed, 0.0f, 10.0f)) {
     particleSystem.setAverageSpeed(avgSpeed);
   }
 
   static float gravityEffect = particleSystem.getGravityEffect();
-  if (ImGui::SliderFloat("Gravity Effect", &gravityEffect, -10.0f, 10.0f)) {
+  if (ImGui::SliderFloat("Gravity Effect", &gravityEffect, -5.0f, 5.0f)) {
     particleSystem.setGravityEffect(gravityEffect);
   }
 
   static float avgLifeLength = particleSystem.getAverageLifeLength();
-  if (ImGui::SliderFloat("Average Life Length", &avgLifeLength, 0.1f, 10.0f)) {
+  if (ImGui::SliderFloat("Average Life Length", &avgLifeLength, 0.1f, 5.0f)) {
     particleSystem.setAverageLifeLength(avgLifeLength);
   }
 
@@ -90,6 +90,11 @@ void ImGuiModule::render() {
       particleSystem.disableRandomRotation();
     }
   }
+  static float turbulenceStrength = particleSystem.getTurbulenceStrength();
+  if (ImGui::SliderFloat("Turbulence Strength", &turbulenceStrength, 0.0f,
+                         100.0f)) {
+    particleSystem.setScaleError(turbulenceStrength);
+  }
 
   static float direction[3] = {particleSystem.getDirection().x,
                                particleSystem.getDirection().y,
@@ -106,17 +111,6 @@ void ImGuiModule::render() {
     particleSystem.setDirection(
         glm::normalize(glm::vec3(direction[0], direction[1], direction[2])),
         directionDeviation);
-  }
-
-  static float turbulenceStrength = particleSystem.getTurbulenceStrength();
-  if (ImGui::SliderFloat("Turbulence Strength", &turbulenceStrength, 0.0f,
-                         100.0f)) {
-    particleSystem.setScaleError(turbulenceStrength);
-  }
-
-  static float turbulenceScale = particleSystem.getTurbulenceScale();
-  if (ImGui::SliderFloat("Turbulence Scale", &turbulenceScale, 0.0f, 100.0f)) {
-    particleSystem.setScaleError(turbulenceScale);
   }
 
   ImGui::End();
