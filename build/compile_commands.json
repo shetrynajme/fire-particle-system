@@ -1,0 +1,176 @@
+[
+{
+  "directory": "/home/franek/Projects/opengl/particle/build",
+  "command": "/usr/bin/g++ -DGLFW_INCLUDE_NONE=1 -DPRODUCTION_BUILD=0 -DRESOURCES_PATH=\\\"/home/franek/Projects/opengl/particle/resources/\\\" -I/home/franek/Projects/opengl/particle/src -I/home/franek/Projects/opengl/particle/thirdparty/glm/include -I/home/franek/Projects/opengl/particle/thirdparty/glm -I/home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/include -I/home/franek/Projects/opengl/particle/thirdparty/glad/include -I/home/franek/Projects/opengl/particle/thirdparty/stb_image/include -I/home/franek/Projects/opengl/particle/thirdparty/imgui-docking/imgui -g -std=gnu++17 -flto=auto -fno-fat-lto-objects -o CMakeFiles/particle.dir/src/gui.cpp.o -c /home/franek/Projects/opengl/particle/src/gui.cpp",
+  "file": "/home/franek/Projects/opengl/particle/src/gui.cpp",
+  "output": "CMakeFiles/particle.dir/src/gui.cpp.o"
+},
+{
+  "directory": "/home/franek/Projects/opengl/particle/build",
+  "command": "/usr/bin/g++ -DGLFW_INCLUDE_NONE=1 -DPRODUCTION_BUILD=0 -DRESOURCES_PATH=\\\"/home/franek/Projects/opengl/particle/resources/\\\" -I/home/franek/Projects/opengl/particle/src -I/home/franek/Projects/opengl/particle/thirdparty/glm/include -I/home/franek/Projects/opengl/particle/thirdparty/glm -I/home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/include -I/home/franek/Projects/opengl/particle/thirdparty/glad/include -I/home/franek/Projects/opengl/particle/thirdparty/stb_image/include -I/home/franek/Projects/opengl/particle/thirdparty/imgui-docking/imgui -g -std=gnu++17 -flto=auto -fno-fat-lto-objects -o CMakeFiles/particle.dir/src/main.cpp.o -c /home/franek/Projects/opengl/particle/src/main.cpp",
+  "file": "/home/franek/Projects/opengl/particle/src/main.cpp",
+  "output": "CMakeFiles/particle.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/franek/Projects/opengl/particle/build",
+  "command": "/usr/bin/g++ -DGLFW_INCLUDE_NONE=1 -DPRODUCTION_BUILD=0 -DRESOURCES_PATH=\\\"/home/franek/Projects/opengl/particle/resources/\\\" -I/home/franek/Projects/opengl/particle/src -I/home/franek/Projects/opengl/particle/thirdparty/glm/include -I/home/franek/Projects/opengl/particle/thirdparty/glm -I/home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/include -I/home/franek/Projects/opengl/particle/thirdparty/glad/include -I/home/franek/Projects/opengl/particle/thirdparty/stb_image/include -I/home/franek/Projects/opengl/particle/thirdparty/imgui-docking/imgui -g -std=gnu++17 -flto=auto -fno-fat-lto-objects -o CMakeFiles/particle.dir/src/particle.cpp.o -c /home/franek/Projects/opengl/particle/src/particle.cpp",
+  "file": "/home/franek/Projects/opengl/particle/src/particle.cpp",
+  "output": "CMakeFiles/particle.dir/src/particle.cpp.o"
+},
+{
+  "directory": "/home/franek/Projects/opengl/particle/build",
+  "command": "/usr/bin/g++ -DGLFW_INCLUDE_NONE=1 -DPRODUCTION_BUILD=0 -DRESOURCES_PATH=\\\"/home/franek/Projects/opengl/particle/resources/\\\" -I/home/franek/Projects/opengl/particle/src -I/home/franek/Projects/opengl/particle/thirdparty/glm/include -I/home/franek/Projects/opengl/particle/thirdparty/glm -I/home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/include -I/home/franek/Projects/opengl/particle/thirdparty/glad/include -I/home/franek/Projects/opengl/particle/thirdparty/stb_image/include -I/home/franek/Projects/opengl/particle/thirdparty/imgui-docking/imgui -g -std=gnu++17 -flto=auto -fno-fat-lto-objects -o CMakeFiles/particle.dir/src/particle_system.cpp.o -c /home/franek/Projects/opengl/particle/src/particle_system.cpp",
+  "file": "/home/franek/Projects/opengl/particle/src/particle_system.cpp",
+  "output": "CMakeFiles/particle.dir/src/particle_system.cpp.o"
+},
+{
+  "directory": "/home/franek/Projects/opengl/particle/build/thirdparty/glfw-3.3.2/src",
+  "command": "/usr/bin/gcc -D_GLFW_USE_CONFIG_H -I/home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/include -I/home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/src -I/home/franek/Projects/opengl/particle/build/thirdparty/glfw-3.3.2/src -g -std=gnu99 -fPIC -Wall -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/context.c.o -c /home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/src/context.c",
+  "file": "/home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/src/context.c",
+  "output": "thirdparty/glfw-3.3.2/src/CMakeFiles/glfw.dir/context.c.o"
+},
+{
+  "directory": "/home/franek/Projects/opengl/particle/build/thirdparty/glfw-3.3.2/src",
+  "command": "/usr/bin/gcc -D_GLFW_USE_CONFIG_H -I/home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/include -I/home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/src -I/home/franek/Projects/opengl/particle/build/thirdparty/glfw-3.3.2/src -g -std=gnu99 -fPIC -Wall -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/init.c.o -c /home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/src/init.c",
+  "file": "/home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/src/init.c",
+  "output": "thirdparty/glfw-3.3.2/src/CMakeFiles/glfw.dir/init.c.o"
+},
+{
+  "directory": "/home/franek/Projects/opengl/particle/build/thirdparty/glfw-3.3.2/src",
+  "command": "/usr/bin/gcc -D_GLFW_USE_CONFIG_H -I/home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/include -I/home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/src -I/home/franek/Projects/opengl/particle/build/thirdparty/glfw-3.3.2/src -g -std=gnu99 -fPIC -Wall -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/input.c.o -c /home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/src/input.c",
+  "file": "/home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/src/input.c",
+  "output": "thirdparty/glfw-3.3.2/src/CMakeFiles/glfw.dir/input.c.o"
+},
+{
+  "directory": "/home/franek/Projects/opengl/particle/build/thirdparty/glfw-3.3.2/src",
+  "command": "/usr/bin/gcc -D_GLFW_USE_CONFIG_H -I/home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/include -I/home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/src -I/home/franek/Projects/opengl/particle/build/thirdparty/glfw-3.3.2/src -g -std=gnu99 -fPIC -Wall -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/monitor.c.o -c /home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/src/monitor.c",
+  "file": "/home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/src/monitor.c",
+  "output": "thirdparty/glfw-3.3.2/src/CMakeFiles/glfw.dir/monitor.c.o"
+},
+{
+  "directory": "/home/franek/Projects/opengl/particle/build/thirdparty/glfw-3.3.2/src",
+  "command": "/usr/bin/gcc -D_GLFW_USE_CONFIG_H -I/home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/include -I/home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/src -I/home/franek/Projects/opengl/particle/build/thirdparty/glfw-3.3.2/src -g -std=gnu99 -fPIC -Wall -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/vulkan.c.o -c /home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/src/vulkan.c",
+  "file": "/home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/src/vulkan.c",
+  "output": "thirdparty/glfw-3.3.2/src/CMakeFiles/glfw.dir/vulkan.c.o"
+},
+{
+  "directory": "/home/franek/Projects/opengl/particle/build/thirdparty/glfw-3.3.2/src",
+  "command": "/usr/bin/gcc -D_GLFW_USE_CONFIG_H -I/home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/include -I/home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/src -I/home/franek/Projects/opengl/particle/build/thirdparty/glfw-3.3.2/src -g -std=gnu99 -fPIC -Wall -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/window.c.o -c /home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/src/window.c",
+  "file": "/home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/src/window.c",
+  "output": "thirdparty/glfw-3.3.2/src/CMakeFiles/glfw.dir/window.c.o"
+},
+{
+  "directory": "/home/franek/Projects/opengl/particle/build/thirdparty/glfw-3.3.2/src",
+  "command": "/usr/bin/gcc -D_GLFW_USE_CONFIG_H -I/home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/include -I/home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/src -I/home/franek/Projects/opengl/particle/build/thirdparty/glfw-3.3.2/src -g -std=gnu99 -fPIC -Wall -o CMakeFiles/glfw.dir/x11_init.c.o -c /home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/src/x11_init.c",
+  "file": "/home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/src/x11_init.c",
+  "output": "thirdparty/glfw-3.3.2/src/CMakeFiles/glfw.dir/x11_init.c.o"
+},
+{
+  "directory": "/home/franek/Projects/opengl/particle/build/thirdparty/glfw-3.3.2/src",
+  "command": "/usr/bin/gcc -D_GLFW_USE_CONFIG_H -I/home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/include -I/home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/src -I/home/franek/Projects/opengl/particle/build/thirdparty/glfw-3.3.2/src -g -std=gnu99 -fPIC -Wall -o CMakeFiles/glfw.dir/x11_monitor.c.o -c /home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/src/x11_monitor.c",
+  "file": "/home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/src/x11_monitor.c",
+  "output": "thirdparty/glfw-3.3.2/src/CMakeFiles/glfw.dir/x11_monitor.c.o"
+},
+{
+  "directory": "/home/franek/Projects/opengl/particle/build/thirdparty/glfw-3.3.2/src",
+  "command": "/usr/bin/gcc -D_GLFW_USE_CONFIG_H -I/home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/include -I/home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/src -I/home/franek/Projects/opengl/particle/build/thirdparty/glfw-3.3.2/src -g -std=gnu99 -fPIC -Wall -o CMakeFiles/glfw.dir/x11_window.c.o -c /home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/src/x11_window.c",
+  "file": "/home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/src/x11_window.c",
+  "output": "thirdparty/glfw-3.3.2/src/CMakeFiles/glfw.dir/x11_window.c.o"
+},
+{
+  "directory": "/home/franek/Projects/opengl/particle/build/thirdparty/glfw-3.3.2/src",
+  "command": "/usr/bin/gcc -D_GLFW_USE_CONFIG_H -I/home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/include -I/home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/src -I/home/franek/Projects/opengl/particle/build/thirdparty/glfw-3.3.2/src -g -std=gnu99 -fPIC -Wall -o CMakeFiles/glfw.dir/xkb_unicode.c.o -c /home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/src/xkb_unicode.c",
+  "file": "/home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/src/xkb_unicode.c",
+  "output": "thirdparty/glfw-3.3.2/src/CMakeFiles/glfw.dir/xkb_unicode.c.o"
+},
+{
+  "directory": "/home/franek/Projects/opengl/particle/build/thirdparty/glfw-3.3.2/src",
+  "command": "/usr/bin/gcc -D_GLFW_USE_CONFIG_H -I/home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/include -I/home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/src -I/home/franek/Projects/opengl/particle/build/thirdparty/glfw-3.3.2/src -g -std=gnu99 -fPIC -Wall -o CMakeFiles/glfw.dir/posix_time.c.o -c /home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/src/posix_time.c",
+  "file": "/home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/src/posix_time.c",
+  "output": "thirdparty/glfw-3.3.2/src/CMakeFiles/glfw.dir/posix_time.c.o"
+},
+{
+  "directory": "/home/franek/Projects/opengl/particle/build/thirdparty/glfw-3.3.2/src",
+  "command": "/usr/bin/gcc -D_GLFW_USE_CONFIG_H -I/home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/include -I/home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/src -I/home/franek/Projects/opengl/particle/build/thirdparty/glfw-3.3.2/src -g -std=gnu99 -fPIC -Wall -o CMakeFiles/glfw.dir/posix_thread.c.o -c /home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/src/posix_thread.c",
+  "file": "/home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/src/posix_thread.c",
+  "output": "thirdparty/glfw-3.3.2/src/CMakeFiles/glfw.dir/posix_thread.c.o"
+},
+{
+  "directory": "/home/franek/Projects/opengl/particle/build/thirdparty/glfw-3.3.2/src",
+  "command": "/usr/bin/gcc -D_GLFW_USE_CONFIG_H -I/home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/include -I/home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/src -I/home/franek/Projects/opengl/particle/build/thirdparty/glfw-3.3.2/src -g -std=gnu99 -fPIC -Wall -o CMakeFiles/glfw.dir/glx_context.c.o -c /home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/src/glx_context.c",
+  "file": "/home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/src/glx_context.c",
+  "output": "thirdparty/glfw-3.3.2/src/CMakeFiles/glfw.dir/glx_context.c.o"
+},
+{
+  "directory": "/home/franek/Projects/opengl/particle/build/thirdparty/glfw-3.3.2/src",
+  "command": "/usr/bin/gcc -D_GLFW_USE_CONFIG_H -I/home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/include -I/home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/src -I/home/franek/Projects/opengl/particle/build/thirdparty/glfw-3.3.2/src -g -std=gnu99 -fPIC -Wall -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/egl_context.c.o -c /home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/src/egl_context.c",
+  "file": "/home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/src/egl_context.c",
+  "output": "thirdparty/glfw-3.3.2/src/CMakeFiles/glfw.dir/egl_context.c.o"
+},
+{
+  "directory": "/home/franek/Projects/opengl/particle/build/thirdparty/glfw-3.3.2/src",
+  "command": "/usr/bin/gcc -D_GLFW_USE_CONFIG_H -I/home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/include -I/home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/src -I/home/franek/Projects/opengl/particle/build/thirdparty/glfw-3.3.2/src -g -std=gnu99 -fPIC -Wall -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/osmesa_context.c.o -c /home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/src/osmesa_context.c",
+  "file": "/home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/src/osmesa_context.c",
+  "output": "thirdparty/glfw-3.3.2/src/CMakeFiles/glfw.dir/osmesa_context.c.o"
+},
+{
+  "directory": "/home/franek/Projects/opengl/particle/build/thirdparty/glfw-3.3.2/src",
+  "command": "/usr/bin/gcc -D_GLFW_USE_CONFIG_H -I/home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/include -I/home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/src -I/home/franek/Projects/opengl/particle/build/thirdparty/glfw-3.3.2/src -g -std=gnu99 -fPIC -Wall -o CMakeFiles/glfw.dir/linux_joystick.c.o -c /home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/src/linux_joystick.c",
+  "file": "/home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/src/linux_joystick.c",
+  "output": "thirdparty/glfw-3.3.2/src/CMakeFiles/glfw.dir/linux_joystick.c.o"
+},
+{
+  "directory": "/home/franek/Projects/opengl/particle/build/thirdparty/glad",
+  "command": "/usr/bin/gcc  -I/home/franek/Projects/opengl/particle/thirdparty/glad/include -g -o CMakeFiles/glad.dir/src/glad.c.o -c /home/franek/Projects/opengl/particle/thirdparty/glad/src/glad.c",
+  "file": "/home/franek/Projects/opengl/particle/thirdparty/glad/src/glad.c",
+  "output": "thirdparty/glad/CMakeFiles/glad.dir/src/glad.c.o"
+},
+{
+  "directory": "/home/franek/Projects/opengl/particle/build/thirdparty/stb_image",
+  "command": "/usr/bin/g++  -I/home/franek/Projects/opengl/particle/thirdparty/stb_image/include -g -std=gnu++17 -o CMakeFiles/stb_image.dir/src/stb_image.cpp.o -c /home/franek/Projects/opengl/particle/thirdparty/stb_image/src/stb_image.cpp",
+  "file": "/home/franek/Projects/opengl/particle/thirdparty/stb_image/src/stb_image.cpp",
+  "output": "thirdparty/stb_image/CMakeFiles/stb_image.dir/src/stb_image.cpp.o"
+},
+{
+  "directory": "/home/franek/Projects/opengl/particle/build/thirdparty/imgui-docking",
+  "command": "/usr/bin/g++  -I/home/franek/Projects/opengl/particle/thirdparty/imgui-docking/imgui -I/home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/include -I/home/franek/Projects/opengl/particle/thirdparty/glad/include -g -std=gnu++17 -o CMakeFiles/imgui.dir/imgui/imgui.cpp.o -c /home/franek/Projects/opengl/particle/thirdparty/imgui-docking/imgui/imgui.cpp",
+  "file": "/home/franek/Projects/opengl/particle/thirdparty/imgui-docking/imgui/imgui.cpp",
+  "output": "thirdparty/imgui-docking/CMakeFiles/imgui.dir/imgui/imgui.cpp.o"
+},
+{
+  "directory": "/home/franek/Projects/opengl/particle/build/thirdparty/imgui-docking",
+  "command": "/usr/bin/g++  -I/home/franek/Projects/opengl/particle/thirdparty/imgui-docking/imgui -I/home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/include -I/home/franek/Projects/opengl/particle/thirdparty/glad/include -g -std=gnu++17 -o CMakeFiles/imgui.dir/imgui/imgui_demo.cpp.o -c /home/franek/Projects/opengl/particle/thirdparty/imgui-docking/imgui/imgui_demo.cpp",
+  "file": "/home/franek/Projects/opengl/particle/thirdparty/imgui-docking/imgui/imgui_demo.cpp",
+  "output": "thirdparty/imgui-docking/CMakeFiles/imgui.dir/imgui/imgui_demo.cpp.o"
+},
+{
+  "directory": "/home/franek/Projects/opengl/particle/build/thirdparty/imgui-docking",
+  "command": "/usr/bin/g++  -I/home/franek/Projects/opengl/particle/thirdparty/imgui-docking/imgui -I/home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/include -I/home/franek/Projects/opengl/particle/thirdparty/glad/include -g -std=gnu++17 -o CMakeFiles/imgui.dir/imgui/imgui_draw.cpp.o -c /home/franek/Projects/opengl/particle/thirdparty/imgui-docking/imgui/imgui_draw.cpp",
+  "file": "/home/franek/Projects/opengl/particle/thirdparty/imgui-docking/imgui/imgui_draw.cpp",
+  "output": "thirdparty/imgui-docking/CMakeFiles/imgui.dir/imgui/imgui_draw.cpp.o"
+},
+{
+  "directory": "/home/franek/Projects/opengl/particle/build/thirdparty/imgui-docking",
+  "command": "/usr/bin/g++  -I/home/franek/Projects/opengl/particle/thirdparty/imgui-docking/imgui -I/home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/include -I/home/franek/Projects/opengl/particle/thirdparty/glad/include -g -std=gnu++17 -o CMakeFiles/imgui.dir/imgui/imgui_tables.cpp.o -c /home/franek/Projects/opengl/particle/thirdparty/imgui-docking/imgui/imgui_tables.cpp",
+  "file": "/home/franek/Projects/opengl/particle/thirdparty/imgui-docking/imgui/imgui_tables.cpp",
+  "output": "thirdparty/imgui-docking/CMakeFiles/imgui.dir/imgui/imgui_tables.cpp.o"
+},
+{
+  "directory": "/home/franek/Projects/opengl/particle/build/thirdparty/imgui-docking",
+  "command": "/usr/bin/g++  -I/home/franek/Projects/opengl/particle/thirdparty/imgui-docking/imgui -I/home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/include -I/home/franek/Projects/opengl/particle/thirdparty/glad/include -g -std=gnu++17 -o CMakeFiles/imgui.dir/imgui/imgui_widgets.cpp.o -c /home/franek/Projects/opengl/particle/thirdparty/imgui-docking/imgui/imgui_widgets.cpp",
+  "file": "/home/franek/Projects/opengl/particle/thirdparty/imgui-docking/imgui/imgui_widgets.cpp",
+  "output": "thirdparty/imgui-docking/CMakeFiles/imgui.dir/imgui/imgui_widgets.cpp.o"
+},
+{
+  "directory": "/home/franek/Projects/opengl/particle/build/thirdparty/imgui-docking",
+  "command": "/usr/bin/g++  -I/home/franek/Projects/opengl/particle/thirdparty/imgui-docking/imgui -I/home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/include -I/home/franek/Projects/opengl/particle/thirdparty/glad/include -g -std=gnu++17 -o CMakeFiles/imgui.dir/imgui/backends/imgui_impl_glfw.cpp.o -c /home/franek/Projects/opengl/particle/thirdparty/imgui-docking/imgui/backends/imgui_impl_glfw.cpp",
+  "file": "/home/franek/Projects/opengl/particle/thirdparty/imgui-docking/imgui/backends/imgui_impl_glfw.cpp",
+  "output": "thirdparty/imgui-docking/CMakeFiles/imgui.dir/imgui/backends/imgui_impl_glfw.cpp.o"
+},
+{
+  "directory": "/home/franek/Projects/opengl/particle/build/thirdparty/imgui-docking",
+  "command": "/usr/bin/g++  -I/home/franek/Projects/opengl/particle/thirdparty/imgui-docking/imgui -I/home/franek/Projects/opengl/particle/thirdparty/glfw-3.3.2/include -I/home/franek/Projects/opengl/particle/thirdparty/glad/include -g -std=gnu++17 -o CMakeFiles/imgui.dir/imgui/backends/imgui_impl_opengl3.cpp.o -c /home/franek/Projects/opengl/particle/thirdparty/imgui-docking/imgui/backends/imgui_impl_opengl3.cpp",
+  "file": "/home/franek/Projects/opengl/particle/thirdparty/imgui-docking/imgui/backends/imgui_impl_opengl3.cpp",
+  "output": "thirdparty/imgui-docking/CMakeFiles/imgui.dir/imgui/backends/imgui_impl_opengl3.cpp.o"
+}
+]
